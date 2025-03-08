@@ -9,3 +9,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     root_directory = args.root_directory
+    project_name = args.project_name
