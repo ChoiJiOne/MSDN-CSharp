@@ -11,7 +11,11 @@ if __name__ == "__main__":
     root_directory = args.root_directory
     project_name = args.project_name
 
-    
+    # 프로젝트 이름이 비어있다면.
+    if not project_name:
+        print("\nERROR! Project name not provided.\nUSAGE: GenerateProject.bat <PROJECT_NAME>\n")
+        sys.exit(1)
+
     print(f"{project_name} 프로젝트 생성 시작.\n")
     command = f"dotnet new console --language \"C#\" --name {project_name}"
     os.system(command)
