@@ -27,11 +27,8 @@
 D:\Temp>dotnet new sln
 "솔루션 파일" 템플릿이 성공적으로 생성되었습니다.
 
-
 D:\Temp>dir /b
 Temp.sln
-
-D:\Temp>
 ```
 
 ### `dotnet new sln --name {MySolution}`
@@ -40,11 +37,8 @@ D:\Temp>
 D:\Temp>dotnet new sln --name Test
 "솔루션 파일" 템플릿이 성공적으로 생성되었습니다.
 
-
 D:\Temp>dir /b
 Test.sln
-
-D:\Temp>
 ```
 
 ### `dotnet new sln --output {MySolution}`
@@ -54,11 +48,8 @@ D:\Temp>dotnet new sln --output Test
 "솔루션 파일" 템플릿이 성공적으로 생성되었습니다.
 
 D:\Temp>cd Test
-
 D:\Temp\Test>dir /b
 Test.sln
-
-D:\Temp\Test>
 ```
 
 ## 참조
