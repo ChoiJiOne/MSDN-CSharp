@@ -2,6 +2,15 @@ import sys
 import os
 import argparse
 
+def check_valid_project_name(project_name):
+    if not project_name:
+        return False
+
+    if '/' in project_name or '\\' in project_name:
+        return False
+    
+    return True
+
 def is_already_exist_vs_project(root_directory, project_name):
     target_project_path = f"{root_directory}{project_name}"
     target_project_file = f"{target_project_path}/{project_name}.csproj"
@@ -23,9 +32,13 @@ if __name__ == "__main__":
     root_directory = args.root_directory
     project_name = args.project_name
 
-    # 프로젝트 이름이 비어있다면.
-    if not project_name:
-        print("\nERROR! Project name not provided.\nUSAGE: GenerateProject.bat <PROJECT_NAME>\n")
+    # 프로젝트 이름이 유효한지 검사.
+    # ex. TEST/TEST => 유효한 이름 아님
+    # ex. TEST\\TEST => 요효한 이름 아님
+    # ex. TEST => 유효한 이름
+    # ex. (아무것도 없음) => 유효한 이름 아님
+    if not check_valid_project_name(project_name):
+        print(f"\nERROR! Project name is invalid: '{project_name}'\n")
         sys.exit(1)
 
     # 인자로 전달받은 프로젝트가 이미 존재한다면.
