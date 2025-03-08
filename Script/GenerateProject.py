@@ -32,7 +32,12 @@ if __name__ == "__main__":
     if is_already_exist_vs_project(root_directory, project_name):
         print(f"\nERROR! '{project_name}' C# Visual Studio project is already exist.\n")
         sys.exit(1)
-    
+
     print(f"'{project_name}' 프로젝트 생성 시작.\n")
     command = f"dotnet new console --language \"C#\" --name {project_name}"
+    os.system(command)
+
+    print(f"'{project_name} 프로젝트 솔루션에 추가.\n'")
+    add_target_project = f"{project_name}/{project_name}.csproj"
+    command = f"dotnet sln add {add_target_project}"
     os.system(command)
