@@ -1,15 +1,14 @@
 import sys
 import os
 import argparse
+import re
 
 def check_valid_project_name(project_name):
     if not project_name:
         return False
-
-    if '/' in project_name or '\\' in project_name:
-        return False
     
-    return True
+    pattern = r'[\\/:*?"<>|]'
+    return not bool(re.search(pattern, project_name))
 
 def is_already_exist_vs_project(root_directory, project_name):
     target_project_path = f"{root_directory}{project_name}"
