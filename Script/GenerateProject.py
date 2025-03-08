@@ -10,6 +10,8 @@ if __name__ == "__main__":
 
     root_directory = args.root_directory
     project_name = args.project_name
+
     
+    print(f"{project_name} 프로젝트 생성 시작.\n")
     command = f"dotnet new console --language \"C#\" --name {project_name}"
     os.system(command)
