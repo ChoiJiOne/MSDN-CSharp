@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "CommandLineArgs": {
-      "commandName": "Project",
-      "commandLineArgs": "1 2 3 Hello World"
-    }
-  }
-}
