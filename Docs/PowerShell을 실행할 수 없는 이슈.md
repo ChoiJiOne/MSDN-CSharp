@@ -5,8 +5,7 @@
 `MainReturnValTest`의 실행 테스트를 위해 PowerShell 스크립트를 작성하여 실행하던 중 다음과 같은 에러가 발생하는 상황
 
 ```PowerShell
-.\MainReturnValTest.ps1 : 이 시스템에서 스크립트를 실행할 수 없으므로 D:\Works\MSDN-CSharp\MainReturnValTest\MainReturn
-ValTest.ps1 파일을 로드할 수 없습니다. 자세한 내용은 about_Execution_Policies(https://go.microsoft.com/fwlink/?LinkID=1
+.\MainReturnValTest.ps1 : 이 시스템에서 스크립트를 실행할 수 없으므로 MainReturnValTest.ps1 파일을 로드할 수 없습니다. 자세한 내용은 about_Execution_Policies(https://go.microsoft.com/fwlink/?LinkID=1
 35170)를 참조하십시오.
 위치 줄:1 문자:1
 + .\MainReturnValTest.ps1
