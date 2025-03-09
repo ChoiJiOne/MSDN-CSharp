@@ -3,7 +3,7 @@
 ## 사용법
 
 - `GenerateProject.bat`를 이용해서 CMD 혹은 PowerShell 창에 다음 명령어 입력
-
+  - `<PROJECT_NAME>`: 생성할 Visual Studio C# 프로젝트 이름
 ```PowerShell
 GenerateProject.bat <PROJECT_NAME>
 ```
