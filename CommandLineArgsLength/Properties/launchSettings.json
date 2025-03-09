@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommandLineArgsLength": {
+      "commandName": "Project",
+      "commandLineArgs": "AAA BBB CCC"
+    }
+  }
+}
