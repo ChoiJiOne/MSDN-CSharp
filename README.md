@@ -1,5 +1,5 @@
-# MSDN C#
-- MSDN의 C# 관련 자료를 정리한 저장소입니다.
+# CSharpProgramming
+- C# 관련 자료 및 실습 코드 저장소입니다.
 
 ## 요구 사항
 - Windows 10/11 Home/Pro
