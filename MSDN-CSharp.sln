@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsOfOtherTypes-NoEntryPo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineArgsLength", "CommandLineArgsLength\CommandLineArgsLength.csproj", "{6FAE2E9F-0D9A-43C5-898B-51C67D8BEECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineArgs", "CommandLineArgs\CommandLineArgs.csproj", "{77DCE4AF-C029-4598-B56A-62EBA2591C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainReturnValTest", "MainReturnValTest\MainReturnValTest.csproj", "{D7D6CD2D-502E-4173-8CF0-E6744BC1CCD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,5 +172,13 @@ Global
 		{6FAE2E9F-0D9A-43C5-898B-51C67D8BEECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FAE2E9F-0D9A-43C5-898B-51C67D8BEECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FAE2E9F-0D9A-43C5-898B-51C67D8BEECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DCE4AF-C029-4598-B56A-62EBA2591C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DCE4AF-C029-4598-B56A-62EBA2591C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DCE4AF-C029-4598-B56A-62EBA2591C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DCE4AF-C029-4598-B56A-62EBA2591C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D6CD2D-502E-4173-8CF0-E6744BC1CCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D6CD2D-502E-4173-8CF0-E6744BC1CCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D6CD2D-502E-4173-8CF0-E6744BC1CCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D6CD2D-502E-4173-8CF0-E6744BC1CCD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
