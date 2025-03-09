@@ -16,3 +16,4 @@
 - [dotnet 명령어 이용해서 C# 프로젝트 생성하기](./Docs/dotnet%20명령어%20이용해서%20C#%20프로젝트%20생성하기.md)
 - [dotnet 명령어 이용해서 솔루션 생성하기](./Docs/dotnet%20명령어%20이용해서%20솔루션%20생성하기.md)
 - [GenerateProject.bat 사용법](./Docs/GenerateProject.bat%20사용법.md)
+- [PowerShell 스크립트를 실행할 수 없는 이슈](./Docs/PowerShell을%20실행할%20수%20없는%20이슈.md)
