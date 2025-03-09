@@ -15,19 +15,3 @@ Visual Studio의 `Solution Explorer`에서 인자를 설정하고 싶은 프로�
 Command line arguments 부분에 원하는 인자 설정
 
 ![](./Images/2025-03-09-14-16-12.png)
-
-## 테스트
-
-### 대상 프로젝트
-- `CommandLineArgsLength`
-
-### 입력할 명령행 인자
-- `AAA BBB CCC`
-
-### 예상되는 출력 값
-- `3`
-
-### 테스트 진행
-- 출력값 확인
-
-![](./Images/2025-03-09-14-18-04.png)
